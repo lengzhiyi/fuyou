@@ -324,7 +324,7 @@
         guguDay = new Date(document.lastModified);
         today = new Date();
         timeold = today.getTime() - guguDay.getTime();
-        msPerDay = 24 * 60 * 60 * 1000;
+        msPerDay = 24 * 60 * 60;
         e_daysold = timeold / msPerDay;
         daysold = Math.floor(e_daysold);
         str += daysold + "天";
